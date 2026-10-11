@@ -61,6 +61,8 @@ What you will see on the phone:
 
 **Next and previous.** On a YouTube page the remote bar's next button plays the next video from the page's list, and so do the car's next and previous buttons and the steering wheel's track buttons.
 
+**Next time in the car.** With Settings, Resume last video when the car connects, on, the video you cast last starts again from where it stopped as soon as rPlayFling is open on the car; nothing to tap.
+
 **Keep rPlayFling running.** It may go to the background and the phone may lock; the cast continues. Do not swipe the app away in the app switcher: that ends the cast.
 
 **Stop.** Tap the green Cast button, or Stop on the car bar. The car goes back to the list.
@@ -251,13 +253,14 @@ Everything in [Cast a web video to the car](#2-cast-a-web-video-to-the-car) work
 Open Settings from the ••• menu on the phone.
 
 <p>
-<img src="images/phone-settings-1.png" width="215" alt="Settings, top: the car options and the receivers"> <img src="images/phone-settings-2.png" width="215" alt="Settings: Receive casts from other apps and the TV code"> <img src="images/phone-settings-3.png" width="215" alt="Settings: Cast Quality, ad blocking, screen cast options"> <img src="images/phone-settings-4.png" width="215" alt="Settings, bottom: Playback and About">
+<img src="images/phone-settings-1.png" width="215" alt="Settings, top: the car options and the receivers"> <img src="images/phone-settings-2.png" width="215" alt="Settings: Resume last video when the car connects, Receive casts from other apps and the TV code"> <img src="images/phone-settings-3.png" width="215" alt="Settings: Cast Quality, ad blocking, screen cast options"> <img src="images/phone-settings-4.png" width="215" alt="Settings, bottom: Playback and About">
 </p>
 
 - **CarPlay target only.** For using rPlayFling with the car alone: the Cast menu offers just Car Screen, Photos opens the car's Photos and Slideshow, and the TV settings are hidden.
 - **Car toolbar** and **Car toolbar look.** Whether the car's bottom bar shows, and its light or dark look.
 - **Video under CarPlay sidebar.** The picture uses the whole car screen, with the sidebar over its edge.
 - **Car video size.** Fit, Fill or Stretch, the same as the bar's size button.
+- **Resume last video when the car connects.** Off by default. On, the video you cast last plays again from where it stopped as soon as rPlayFling is open on the car, from 2.1 (62).
 - **DLNA receiver.** DLNA apps can cast to rPlayFling. On by default.
 - **FCast receiver.** Grayjay and other FCast apps can cast to rPlayFling. Off by default.
 - **Receive casts from other apps.** The YouTube app can find rPlayFling on the same Wi-Fi. On by default.
