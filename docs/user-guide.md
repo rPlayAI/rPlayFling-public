@@ -73,11 +73,18 @@ rPlayFling's car screen has tabs along the top and, while something plays, a bar
 
 **Tabs**
 
+<img src="images/car-tab-now.png" width="560" alt="The car screen's tabs: Now, Favorites, Recent, Photos, Cast, Web; nothing on air yet">
+
 - **Now**: the video on air. With nothing on air it is a hint to cast from the phone.
 - **Favorites**: the videos you starred. Tap one to play it again without touching the phone.
 - **Recent**: the last videos you cast. Tap to play again.
 - **Photos**: your photo library and a slideshow, and videos you imported. See [Your own videos and photos](#9-your-own-videos-and-photos).
+- **Cast**: the ways other things reach this screen, with a check mark when one is ready: the phone's screen through Control Center's screen recording, and DLNA apps casting to "rPlayFling".
 - **Web**: a browser on the car screen. See [The Web tab](#4-the-web-tab-browse-on-the-car-screen).
+
+<img src="images/car-tab-photos.png" width="560" alt="The Photos tab: Slideshow and imported videos">
+
+<img src="images/car-tab-cast.png" width="560" alt="The Cast tab: the phone's screen and DLNA apps">
 
 **The video bar**, along the bottom of the picture: play and pause, back 15 seconds, forward 15 seconds, previous and next, a position bar you can drag or turn with the knob, the picture size button (Fit, Fill, Stretch), and the video's title. It fades after a few seconds; tap the picture or move the knob to bring it back.
 
@@ -97,6 +104,8 @@ The Web tab is a browser on the car itself, for a parked car. It opens on the pa
 
 **Typing.** The address field opens a keyboard on the car screen, in English or Chinese pinyin (the 中/英 key switches). The microphone key takes voice input. You can also type on the phone: while the field on the car is open, the phone shows a box, and what you type there goes into the field on the car.
 
+<img src="images/car-web-video.png" width="560" alt="The Web tab on a YouTube page, the video playing in the page's own player">
+
 **Playing a video on the Web tab.** Tap a video on the page and it plays on the car in the page's own player, with the page's own controls. This is different from casting: the page itself is on the car. Tap the Close button to go back to the tabs.
 
 **Show a page on the car from the phone.** On the phone, the ••• menu has Show Page on Car. It opens the page you are on in the car's Web tab.
@@ -110,7 +119,15 @@ A video playing on the Web tab sits inside the page, with the site's layout arou
 1. Start the video on the car page, or on the phone (tap the video).
 2. Tap the **Full-screen page** button on the car toolbar, the ⤢ arrows icon.
 
-rPlayFling presses the site's own full-screen button for you, and the picture fills the screen; the toolbar goes away. If the page has no video, the same button just hides the toolbar to give the page more room.
+rPlayFling presses the site's own full-screen button for you, and the picture fills the screen; the toolbar goes away.
+
+<img src="images/car-web-fullscreen.png" width="560" alt="The car screen in full screen: the picture only">
+
+A tap on the picture shows the site's own controls: close, back and forward 10 seconds, pause, the seek bar.
+
+<img src="images/car-web-after-fs.png" width="560" alt="The full-screen player's own controls on the car">
+
+ If the page has no video, the same button just hides the toolbar to give the page more room.
 
 **Leaving full screen.** Tap the small button at the top right of the screen, or tap the site's own exit button in the video's controls. With a knob, turn up past the top of the page, or press the knob while nothing is highlighted. The toolbar comes back.
 
