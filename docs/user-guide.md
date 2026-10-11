@@ -224,7 +224,9 @@ Everything in [Cast a web video to the car](#2-cast-a-web-video-to-the-car) work
 
 Open Settings from the ••• menu on the phone.
 
-<img src="images/phone-settings.png" width="300" alt="The Settings page">
+<p>
+<img src="images/phone-settings-1.png" width="215" alt="Settings, top: the car options and the receivers"> <img src="images/phone-settings-2.png" width="215" alt="Settings: Receive casts from other apps and the TV code"> <img src="images/phone-settings-3.png" width="215" alt="Settings: Cast Quality, ad blocking, screen cast options"> <img src="images/phone-settings-4.png" width="215" alt="Settings, bottom: Playback and About">
+</p>
 
 - **CarPlay target only.** For using rPlayFling with the car alone: the Cast menu offers just Car Screen, Photos opens the car's Photos and Slideshow, and the TV settings are hidden.
 - **Car toolbar** and **Car toolbar look.** Whether the car's bottom bar shows, and its light or dark look.
@@ -283,7 +285,9 @@ Open Settings from the ••• menu on the phone.
 
 A hidden page holds the switches that are still experiments or that most people never need. To open it, type `fling://developer` in rPlayFling's address bar on the phone. Everything on it is off by default unless said otherwise, and nothing there is needed for normal use.
 
-<img src="images/phone-developer.png" width="300" alt="The developer page: CarPlay switches">
+<p>
+<img src="images/phone-developer-1.png" width="215" alt="Developer page, top: the CarPlay switches"> <img src="images/phone-developer-2.png" width="215" alt="Developer page: the CarPlay notes and the AirPlay switches"> <img src="images/phone-developer-3.png" width="215" alt="Developer page: the AirPlay notes"> <img src="images/phone-developer-4.png" width="215" alt="Developer page, bottom: Diagnostics">
+</p>
 
 **CarPlay**
 
