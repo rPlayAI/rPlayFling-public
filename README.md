@@ -8,10 +8,12 @@ car while you are parked.
 
 **[Join the TestFlight beta](https://testflight.apple.com/join/rncgthyN)** — iPhone, iOS 18 or later, with a CarPlay car or head unit.
 
-[Report a problem](https://github.com/rPlayAI/rPlayFling-public/issues) ·
+**[User guide](docs/user-guide.md)** · [Report a problem](https://github.com/rPlayAI/rPlayFling-public/issues) ·
 [Release notes](docs/releases.md)
 
 This repository is for **releases, documentation and issues**. The source code is not public.
+
+New here? The **[user guide](docs/user-guide.md)** walks through every feature: casting, the car screen, the Web tab and full screen, knob cars, casting from the YouTube app with a TV code, your own videos, and troubleshooting.
 
 ## What it does
 
