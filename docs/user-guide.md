@@ -260,7 +260,7 @@ Open Settings from the ••• menu on the phone.
 - **Car toolbar** and **Car toolbar look.** Whether the car's bottom bar shows, and its light or dark look.
 - **Video under CarPlay sidebar.** The picture uses the whole car screen, with the sidebar over its edge.
 - **Car video size.** Fit, Fill or Stretch, the same as the bar's size button.
-- **Resume last video when the car connects.** Off by default. On, the video you cast last plays again from where it stopped as soon as rPlayFling is open on the car, from 2.1 (63).
+- **Resume last video when the car connects.** Off by default. On, the video you cast last plays again from where it stopped as soon as rPlayFling is open on the car, from 2.1 (64).
 - **DLNA receiver.** DLNA apps can cast to rPlayFling. On by default.
 - **FCast receiver.** Grayjay and other FCast apps can cast to rPlayFling. Off by default.
 - **Receive casts from other apps.** The YouTube app can find rPlayFling on the same Wi-Fi. On by default.
