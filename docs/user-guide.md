@@ -1,6 +1,6 @@
 # rPlayFling user guide
 
-rPlayFling plays web videos, your own videos and photos, and casts from other apps on your car's CarPlay screen. This guide walks through every feature, in the order you will meet them. It is written for the TestFlight beta, 2.1 (58) and later.
+rPlayFling plays web videos, your own videos and photos, and casts from other apps on your car's CarPlay screen, and on TVs: Apple TV and AirPlay TVs, Chromecast and Google TV, and DLNA TVs and boxes. The car is what rPlayFling was built for, so this guide focuses on CarPlay; casting to a TV works the same way from the same Cast button, and the differences are in [Casting to a TV](#11-casting-to-a-tv). The guide walks through every feature in the order you will meet them. It is written for the TestFlight beta, 2.1 (58) and later.
 
 Contents
 
@@ -14,13 +14,14 @@ Contents
 8. [Cast from other apps: DLNA and FCast](#8-cast-from-other-apps-dlna-and-fcast)
 9. [Your own videos and photos](#9-your-own-videos-and-photos)
 10. [Cast the phone's screen](#10-cast-the-phones-screen)
-11. [TVs: AirPlay, Chromecast, DLNA](#11-tvs-airplay-chromecast-dlna)
+11. [Casting to a TV](#11-casting-to-a-tv)
 12. [Favorites, Recent and bookmarks](#12-favorites-recent-and-bookmarks)
 13. [Settings, one by one](#13-settings-one-by-one)
 14. [Driving](#14-driving)
 15. [Troubleshooting](#15-troubleshooting)
 16. [What rPlayFling cannot do](#16-what-rplayfling-cannot-do)
-17. [Sending a log with a bug report](#17-sending-a-log-with-a-bug-report)
+17. [Developer options](#17-developer-options)
+18. [Sending a log with a bug report](#18-sending-a-log-with-a-bug-report)
 
 ---
 
@@ -40,6 +41,8 @@ Contents
 
 rPlayFling is a web browser on the phone. Any video that plays in it can go to the car.
 
+<img src="images/phone-start.png" width="300" alt="The start page: address bar, Cast button, shortcuts and Recently Cast">
+
 1. **Find a video.** Type a site or a search in the address bar at the top. For YouTube, type `youtube.com`. The start page has a few shortcuts (Photos, Favorites, Google Video, Vimeo, Archive.org, NASA TV) and the sites you bookmark. YouTube has no shortcut by design, but you can bookmark it: open youtube.com, tap the ••• menu, then Add to Bookmarks.
 2. **Start playing it** on the page, as you would in Safari.
 3. **Tap the Cast button** (the screen-with-waves icon at the top right) and pick **Car Screen**. On the car, the picture appears on the Now tab.
@@ -49,6 +52,8 @@ What you will see on the phone:
 - A remote bar appears above the page: play and pause, seek, previous and next, a star for Favorites, and a quality label such as 1080p.
 - The page's own player is paused. The phone says "Phone playback is paused to save battery & bandwidth". The sound comes from the car.
 - The Cast button turns green. Tap it again to stop casting, or pick Stop Casting from its menu.
+
+<img src="images/phone-casting.png" width="300" alt="A YouTube video casting at 1080p, with the remote bar above the page">
 
 **Quality.** The cast is 1080p where the site offers it, 720p or 360p otherwise, as set under Settings, Cast Quality. A video often starts at 360p and moves up to 1080p a few seconds in, when the site releases the HD stream. That is normal. The quality label on the remote bar shows what is on the car right now. Do not judge the cast by the phone page's own quality menu: YouTube's mobile page plays 360p on the phone while the car gets HD.
 
@@ -161,6 +166,8 @@ Both need Settings, Receive casts from other apps, on (it is by default).
 
 ## 9. Your own videos and photos
 
+<img src="images/phone-photos.png" width="300" alt="The Photos page: TV & Cast and Car Screen, Choose Videos">
+
 **From the phone's Photos tab** (the Photos shortcut on the start page): pick videos from your photo library and cast them to the car, or show photos. Formats the iPhone plays (MP4, MOV, HEVC) play as they are.
 
 **From Files.** Import a file from the Files app. MKV, AVI and WebM are converted to MP4 on the phone before they play; a conversion can take a while for a long file.
@@ -179,15 +186,31 @@ Settings, Mute phone while casting screen, tries to silence the phone during a s
 
 ---
 
-## 11. TVs: AirPlay, Chromecast, DLNA
+## 11. Casting to a TV
 
-The Cast menu lists what is on your Wi-Fi besides the car: Apple TVs and AirPlay TVs, Chromecasts and Google TVs, and DLNA TVs and boxes. Pick one and the video plays there the same way. A DLNA TV that is not found can be added by its address under Settings.
+Everything in [Cast a web video to the car](#2-cast-a-web-video-to-the-car) works for a TV too. The difference is only what you pick in the Cast menu.
 
-Settings, Route Video Through Phone, is for sites that refuse to play on a TV directly: the phone fetches the video and hands it to the TV. It uses the phone's Wi-Fi bandwidth. These settings are hidden under CarPlay target only, where the car is the only receiver.
+**What the Cast menu lists.** Besides Car Screen, the TVs and boxes on the same Wi-Fi as the phone:
+
+- **Apple TV and AirPlay TVs** (Samsung, LG, Sony and others with AirPlay built in). The video goes to the TV as any AirPlay video does, and the remote bar on the phone controls it.
+- **Chromecast and Google TV**, and TVs with Chromecast built in. Pick it under Chromecast in the menu; Switch Chromecast Device changes to another one.
+- **DLNA TVs and boxes**, found automatically. One that is not found can be added by its address under Settings.
+
+**The phone and the TV must be on the same Wi-Fi**, and iOS must allow Local Network for rPlayFling (see [Before you start](#1-before-you-start)). The car does not have this requirement.
+
+**Quality** is the same as for the car: 1080p where the site offers it, as set under Cast Quality, with the same slow start at 360p on some videos.
+
+**Sites that refuse to play on a TV.** Some sites allow their video to play only where it was opened. Settings, Route Video Through Phone, has the phone fetch the video and hand it to the TV, which gets round that at the cost of the phone's Wi-Fi bandwidth. On by default.
+
+**Cast Screen** works to TVs as to the car, with the same delay and the same black picture for DRM apps. For a DLNA receiver, Settings, Low-latency screen cast, sends frames as they happen for the lowest delay; leave it off for TVs.
+
+**Casting to a TV while in the car.** With Settings, CarPlay target only, on, the Cast menu offers only Car Screen and the TV settings are hidden. Turn it off to see TVs again.
 
 ---
 
 ## 12. Favorites, Recent and bookmarks
+
+<img src="images/phone-favorites.png" width="300" alt="Favorites with two starred videos">
 
 **Favorites** are videos. Tap the star on the remote bar while a video is casting, or beside a video under Recently Cast on the start page. Favorites are on the phone's start page and on the car's Favorites tab; tap one to cast it again. The car bar has a star too.
 
@@ -200,6 +223,8 @@ Settings, Route Video Through Phone, is for sites that refuse to play on a TV di
 ## 13. Settings, one by one
 
 Open Settings from the ••• menu on the phone.
+
+<img src="images/phone-settings.png" width="300" alt="The Settings page">
 
 - **CarPlay target only.** For using rPlayFling with the car alone: the Cast menu offers just Car Screen, Photos opens the car's Photos and Slideshow, and the TV settings are hidden.
 - **Car toolbar** and **Car toolbar look.** Whether the car's bottom bar shows, and its light or dark look.
@@ -254,7 +279,33 @@ Open Settings from the ••• menu on the phone.
 
 ---
 
-## 17. Sending a log with a bug report
+## 17. Developer options
+
+A hidden page holds the switches that are still experiments or that most people never need. To open it, type `fling://developer` in rPlayFling's address bar on the phone. Everything on it is off by default unless said otherwise, and nothing there is needed for normal use.
+
+<img src="images/phone-developer.png" width="300" alt="The developer page: CarPlay switches">
+
+**CarPlay**
+
+- **Hide video while driving.** On by default. Off, the picture stays on the car screen while the car moves. This is your responsibility and your passengers'; the law in most places says the driver may not watch.
+- **Use car's Video Playback feature (new cars).** On, video goes through CarPlay's own video player, which only cars with that feature have (iOS 27.2 and later cars offer it); other cars then play the sound only. Off, rPlayFling draws the picture itself, which works on the cars most people have.
+- **YouTube app casts: TV player on the car.** On, a video cast from the YouTube app plays in YouTube's own TV player on the car screen, as on a Chromecast, in HD, with YouTube's own look. Only on cars where rPlayFling draws the picture itself. Off, the video plays through rPlayFling's own player like any cast.
+- **Chromecast receiver.** On, apps that cast to a Chromecast (YouTube, and many others) list "rPlayFling" on a Wi-Fi network that has internet access, and what they send plays on the car. On a car hotspot without internet, Cast apps do not search the network at all, so there the TV code is the way. Needs Settings, Receive casts from other apps, on.
+
+**AirPlay**
+
+- **AirPlay receiver.** On, other iPhones, iPads and Macs list "rPlayFling" in their AirPlay menu: their screen mirrors to the car, and the YouTube app's AirPlay button on those devices hands the video over to play on the car. Needs Settings, Receive casts from other apps, on. The phone that runs rPlayFling cannot AirPlay to itself with sound in the car; that is an iOS limit.
+- **Mirroring only (no video handoff).** On, senders only mirror their screen; apps are not offered the video handoff.
+- **Take the sender's audio.** On by default. On, the sender's sound comes along, as to any AirPlay device. Off, the sound stays on the sender, and iOS ends the mirroring after a minute.
+- **Same-phone audio (experiment).** Leave it off. It tries to play this phone's own AirPlay audio through a recording session and it breaks the phone's audio and the CarPlay session every time.
+
+**Diagnostics**
+
+- **Save log file** and **Share Log File.** See the next section.
+
+---
+
+## 18. Sending a log with a bug report
 
 A log tells us what happened on your phone; TestFlight feedback alone carries no log.
 
