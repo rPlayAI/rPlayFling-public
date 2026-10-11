@@ -1,6 +1,6 @@
 # rPlayFling user guide
 
-rPlayFling plays web videos, your own videos and photos, and casts from other apps on your car's CarPlay screen, and on TVs: Apple TV and AirPlay TVs, Chromecast and Google TV, and DLNA TVs and boxes. The car is what rPlayFling was built for, so this guide focuses on CarPlay; casting to a TV works the same way from the same Cast button, and the differences are in [Casting to a TV](#11-casting-to-a-tv). The guide walks through every feature in the order you will meet them. It is written for the TestFlight beta, 2.1 (58) and later.
+rPlayFling plays web videos, your own videos and photos, and casts from other apps on your car's CarPlay screen, and on TVs: Apple TV and AirPlay TVs, Chromecast and Google TV, and DLNA TVs and boxes. The car is what rPlayFling was built for, so this guide focuses on CarPlay; casting to a TV works the same way from the same Cast button, and the differences are in [Casting to a TV](#11-casting-to-a-tv). Everything on the car screen works with a touch screen and just as well with a rotary knob or commander, as in a Mazda or BMW; see [Cars with a knob or commander](#6-cars-with-a-knob-or-commander). The guide walks through every feature in the order you will meet them. It is written for the TestFlight beta, 2.1 (58) and later.
 
 Contents
 
@@ -69,7 +69,7 @@ What you will see on the phone:
 
 ## 3. The car screen
 
-rPlayFling's car screen has tabs along the top and, while something plays, a bar along the bottom.
+rPlayFling's car screen has tabs along the top and, while something plays, a bar along the bottom. Every control on it is reachable by touch or by the car's knob.
 
 **Tabs**
 
@@ -86,7 +86,16 @@ rPlayFling's car screen has tabs along the top and, while something plays, a bar
 
 <img src="images/car-tab-cast.png" width="560" alt="The Cast tab: the phone's screen and DLNA apps">
 
-**The video bar**, along the bottom of the picture: play and pause, back 15 seconds, forward 15 seconds, previous and next, a position bar you can drag or turn with the knob, the picture size button (Fit, Fill, Stretch), and the video's title. It fades after a few seconds; tap the picture or move the knob to bring it back.
+**The video bar**, along the bottom of the picture, with the video playing on above it:
+
+<img src="images/car-video-bar.png" width="640" alt="A video on the car screen with the bar along the bottom">
+
+<img src="images/car-video-bar-closeup.png" width="640" alt="The video bar up close: position, back, 15 seconds, pause, title, star, picture size, lists">
+
+- The top row is the position: the time played, the length, and the quality on the car right now (here still 360p, before the HD stream arrived). Drag it, or turn the knob on it.
+- Below: a back arrow that returns to what you were looking at before the video; 15 seconds back; pause and play; 15 seconds forward; the video's title; the star for Favorites; the picture size (Fit, Fill, Stretch); and the lists button, which opens the tabs over the video without stopping it. For your own videos and photos, previous and next are there too.
+
+It fades after a few seconds; tap the picture or move the knob to bring it back.
 
 **Picture size.** Fit shows the whole picture with bars, Fill crops to fill the screen, Stretch fills without cropping. The same choice is under Settings, Car video size, which is easier than the small button on some screens.
 
