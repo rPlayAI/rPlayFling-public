@@ -1,5 +1,23 @@
 # Release notes
 
+## 2.1 (62) — October 11, 2026
+
+Everything since 2.1 (53).
+
+- **Cast from the YouTube app to the car**: Settings › Link YouTube with TV code, enter the code in the YouTube app
+  once, and "rPlayFling" is in its Cast menu, even on cellular. Stop casting in the app and the car stops.
+- **Resume last video when the car connects** (Settings, off by default): the last video plays on from where it
+  stopped.
+- **Cars with a knob**: full screen on the Web tab can be left with the knob (up past the top, or a press on
+  nothing).
+- **DLNA and FCast receivers**: apps like iQiyi, Youku, Bilibili and Grayjay can cast to the car.
+- **Settings in Simplified Chinese.**
+- Fixes: a crash at launch in the car's channel list; YouTube app casts that stopped working on the second try.
+
+Known: a video can start at 360p and move to 1080p after a while, when YouTube releases the HD stream. DRM apps
+(Netflix, Disney+, Crunchyroll) show black in a screen cast; that is iOS.
+The [user guide](user-guide.md) covers every feature.
+
 ## 2.1 (21) — October 2026
 
 - **1080p on cars with CarPlay video playback** (iOS 27.2): YouTube videos now reach the car's own
