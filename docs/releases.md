@@ -1,8 +1,8 @@
 # Release notes
 
-## 2.1 (62) — October 11, 2026
+## 2.1 (63) — October 11, 2026
 
-Everything since 2.1 (53).
+Everything since 2.1 (53). (62 was replaced by 63 the same day.)
 
 - **Cast from the YouTube app to the car**: Settings › Link YouTube with TV code, enter the code in the YouTube app
   once, and "rPlayFling" is in its Cast menu, even on cellular. Stop casting in the app and the car stops.
