@@ -1,5 +1,20 @@
 # Release notes
 
+## 2.1 (65) — October 12, 2026
+
+Everything in 2.1 (64) below, plus:
+
+**Start page**
+- A "How to cast" card with the three steps and a link to the user guide, for the first time you open the app. Close it with its X; it also goes away by itself once you cast.
+- A YouTube tile, first after Photos and Favorites. Phones that already have a start page get it added once.
+
+**Developer options**
+- "YouTube app casts: TV player on the car" is used only while rPlayFling is in the foreground on the phone. In the background a cast from the YouTube app takes the normal path, so it no longer plays a few seconds and stalls.
+
+**Guide**
+- Three tutorials with pictures: [Cast a YouTube video to the car](cast-from-youtube.md), [Cast from the YouTube app](cast-from-youtube-app.md), [Fill the whole car screen](full-screen.md).
+- Which iOS does what: TVs on iOS 18 or later; the car screen on iOS 26.4 to 27.1; iOS 27.2 and later only in cars with CarPlay video playback.
+
 ## 2.1 (64) — October 11, 2026
 
 Everything since 2.1 (50), the last public build. Items marked (53) went out in the 2.1 (53) hotfix.
