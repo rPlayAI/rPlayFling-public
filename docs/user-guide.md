@@ -31,7 +31,15 @@ Contents
 
 ## 1. Before you start
 
-**Install.** Join the beta at https://testflight.apple.com/join/rncgthyN and install rPlayFling from the TestFlight app. You need an iPhone with iOS 18 or later and a car or head unit with CarPlay.
+**Install.** Join the beta at https://testflight.apple.com/join/rncgthyN and install rPlayFling from the TestFlight app.
+
+**What you need.** The iOS version decides what rPlayFling can do:
+
+- **iOS 18 or later:** the app installs, and casting to TVs works (AirPlay, Chromecast, DLNA). The car screen does not.
+- **iOS 26.4 to iOS 27.1:** video on the car screen, in any car or head unit with CarPlay. This is the range to be on for the car.
+- **iOS 27.2 or later:** the car screen works only in a car with CarPlay's own video playback feature (newer cars). In other cars, rPlayFling plays the sound only. Apple closed the way the app draws on the car screen in 27.2; there is no way around it in the app.
+
+To check: iOS Settings, General, About, iOS Version. If you are on iOS 27.2 or later with a car that has no video playback, the car part of this guide does not apply; the TV part does.
 
 **Allow Local Network.** The first time you cast, iOS asks whether rPlayFling may find devices on the local network. Allow it. Without it the Cast menu finds no TVs and the car web page cannot load. If you tapped Don't Allow, turn it on later under iOS Settings, Privacy & Security, Local Network.
 
@@ -287,7 +295,7 @@ Open Settings from the ••• menu on the phone.
 
 ## 15. Troubleshooting
 
-**"Video isn't available on this car. Audio keeps playing."** The car's CarPlay cannot show rPlayFling's picture. On iOS 27.2 and later, CarPlay allows third-party video only through the car's own video playback feature, which only newer cars have; on such a car with iOS 27.2, rPlayFling plays the sound only. There is no way around this in the app.
+**"Video isn't available on this car. Audio keeps playing."** The car's CarPlay cannot show rPlayFling's picture. On iOS 27.2 and later, CarPlay allows third-party video only through the car's own video playback feature, which only newer cars have; on any other car with iOS 27.2 or later, rPlayFling plays the sound only. There is no way around this in the app. The car screen works on iOS 26.4 to 27.1 in every CarPlay car; see [Before you start](#1-before-you-start).
 
 **360p.** On the car, a video that stays at 360p for its whole length usually has no 16:9 HD version at the site, or the site held back HD for an ad slot longer than usual. On the phone page, 360p is YouTube's mobile page itself; the car gets HD regardless.
 
