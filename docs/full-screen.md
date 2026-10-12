@@ -10,9 +10,9 @@ A video cast to the car plays on rPlayFling's **Now** tab. Most car screens are 
 
 Fourteen seconds in a car: the video playing with bars, a tap on the picture-size button, the picture filling the screen.
 
-https://github.com/rPlayAI/rPlayFling-public/raw/main/docs/videos/car-video-size.mp4
+<img src="images/car-video-size.gif" width="560" alt="In the car: the control bar appears, the picture-size button is tapped, the picture fills the screen">
 
-<img src="images/car-video-size-poster.jpg" width="560" alt="A cast video on the car screen with the control bar">
+The same clip in full quality: [car-video-size.mp4](videos/car-video-size.mp4) (3 MB).
 
 ### Step by step
 
