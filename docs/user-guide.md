@@ -67,7 +67,7 @@ What you will see on the phone:
 
 <img src="images/phone-casting.png" width="300" alt="A YouTube video casting at 1080p, with the remote bar above the page">
 
-**Quality.** The cast is 1080p where the site offers it, 720p or 360p otherwise, as set under Settings, Cast Quality. A video often starts at 360p and moves up to 1080p a few seconds in, when the site releases the HD stream. That is normal. The quality label on the remote bar shows what is on the car right now. Do not judge the cast by the phone page's own quality menu: YouTube's mobile page plays 360p on the phone while the car gets HD.
+**Quality.** The cast is 1080p where the site offers it, 720p or 360p otherwise, as set under Settings, Cast Quality. YouTube is the exception on the road: on a cellular connection, and on a VPN, YouTube serves rPlayFling the 360p stream only, while on a home Wi-Fi it serves 1080p. That is YouTube's rule for the address the phone comes from, not a setting; see [Troubleshooting](#15-troubleshooting). A video often starts at 360p and moves up to 1080p a few seconds in, when the site releases the HD stream. That is normal. The quality label on the remote bar shows what is on the car right now. Do not judge the cast by the phone page's own quality menu: YouTube's mobile page plays 360p on the phone while the car gets HD.
 
 **Change the video.** While casting, open another video on the page, in the same tab or another. The car switches to it. In HD the switch takes a few seconds longer than at 360p.
 
@@ -294,6 +294,9 @@ Open Settings from the ••• menu on the phone.
 ---
 
 ## 15. Troubleshooting
+
+**YouTube plays at 360p, and used to be 1080p.** Look at the connection, not the app. YouTube serves its HD streams to rPlayFling only from a home-style address: on the home Wi-Fi you get 1080p, on a cellular connection or through a VPN (including Google Fi's enhanced network and Google One VPN) you get 360p, signed in or not. In the car on cellular, 360p is what YouTube allows. Other sites, and YouTube live streams, are not affected. Casting from the YouTube app to the car goes through the same path and follows the same rule.
+
 
 **"Video isn't available on this car. Audio keeps playing."** The car's CarPlay cannot show rPlayFling's picture. On iOS 27.2 and later, CarPlay allows third-party video only through the car's own video playback feature, which only newer cars have; on any other car with iOS 27.2 or later, rPlayFling plays the sound only. There is no way around this in the app. The car screen works on iOS 26.4 to 27.1 in every CarPlay car; see [Before you start](#1-before-you-start).
 
