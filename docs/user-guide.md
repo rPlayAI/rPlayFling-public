@@ -25,7 +25,7 @@ Contents
 
 ---
 
-**Short tutorials, with pictures:** [Cast a YouTube video to the car](cast-from-youtube.md) · [Fill the whole car screen](full-screen.md)
+**Short tutorials, with pictures:** [Cast a YouTube video to the car](cast-from-youtube.md) · [Cast from the YouTube app](cast-from-youtube-app.md) · [Fill the whole car screen](full-screen.md)
 
 ---
 
