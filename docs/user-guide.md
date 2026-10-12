@@ -25,6 +25,10 @@ Contents
 
 ---
 
+**Short tutorials, with pictures:** [Cast a YouTube video to the car](cast-from-youtube.md) · [Fill the whole car screen](full-screen.md)
+
+---
+
 ## 1. Before you start
 
 **Install.** Join the beta at https://testflight.apple.com/join/rncgthyN and install rPlayFling from the TestFlight app. You need an iPhone with iOS 18 or later and a car or head unit with CarPlay.
@@ -43,7 +47,7 @@ rPlayFling is a web browser on the phone. Any video that plays in it can go to t
 
 <img src="images/phone-start.png" width="300" alt="The start page: address bar, Cast button, shortcuts and Recently Cast">
 
-1. **Find a video.** Type a site or a search in the address bar at the top. For YouTube, type `youtube.com`. The start page has a few shortcuts (Photos, Favorites, Google Video, Vimeo, Archive.org, NASA TV) and the sites you bookmark. YouTube has no shortcut by design, but you can bookmark it: open youtube.com, tap the ••• menu, then Add to Bookmarks.
+1. **Find a video.** Tap a shortcut on the start page (YouTube, Google Video, Vimeo, Archive.org, NASA TV), or type a site or a search in the address bar at the top. Photos and Favorites are the first two tiles; the rest are bookmarks, and you can add any site: open it, tap the ••• menu, then Add to Bookmarks. The first time, a "How to cast" card on the start page shows these three steps; close it with its X.
 2. **Start playing it** on the page, as you would in Safari.
 3. **Tap the Cast button** (the screen-with-waves icon at the top right) and pick **Car Screen**. On the car, the picture appears on the Now tab.
 

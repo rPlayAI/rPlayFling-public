@@ -11,6 +11,8 @@ car while you are parked.
 **[User guide](docs/user-guide.md)** · [Report a problem](https://github.com/rPlayAI/rPlayFling-public/issues) ·
 [Release notes](docs/releases.md)
 
+**Tutorials:** [Cast a YouTube video to the car](docs/cast-from-youtube.md) · [Fill the whole car screen](docs/full-screen.md)
+
 This repository is for **releases, documentation and issues**. The source code is not public.
 
 New here? The **[user guide](docs/user-guide.md)** walks through every feature: casting, the car screen, the Web tab and full screen, knob cars, casting from the YouTube app with a TV code, your own videos, and troubleshooting.
