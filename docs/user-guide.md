@@ -36,10 +36,9 @@ Contents
 **What you need.** The iOS version decides what rPlayFling can do:
 
 - **iOS 18 or later:** the app installs, and casting to TVs works (AirPlay, Chromecast, DLNA). The car screen does not.
-- **iOS 26.4 to iOS 27.1:** video on the car screen, in any car or head unit with CarPlay. This is the range to be on for the car.
-- **iOS 27.2 or later:** the car screen works only in a car with CarPlay's own video playback feature (newer cars). In other cars, rPlayFling plays the sound only. Apple closed the way the app draws on the car screen in 27.2; there is no way around it in the app.
+- **iOS 26.4 or later:** video on the car screen, in any car or head unit with CarPlay, including iOS 27.2 and later. Newer cars with CarPlay's own video playback feature can also use the car's own video player.
 
-To check: iOS Settings, General, About, iOS Version. If you are on iOS 27.2 or later with a car that has no video playback, the car part of this guide does not apply; the TV part does.
+To check: iOS Settings, General, About, iOS Version.
 
 **Allow Local Network.** The first time you cast, iOS asks whether rPlayFling may find devices on the local network. Allow it. Without it the Cast menu finds no TVs and the car web page cannot load. If you tapped Don't Allow, turn it on later under iOS Settings, Privacy & Security, Local Network.
 
@@ -298,7 +297,7 @@ Open Settings from the ••• menu on the phone.
 **YouTube plays at 360p, and used to be 1080p.** Look at the connection, not the app. YouTube serves its HD streams to rPlayFling only from a home-style address: on the home Wi-Fi you get 1080p, on a cellular connection or through a VPN (including Google Fi's enhanced network and Google One VPN) you get 360p, signed in or not. In the car on cellular, 360p is what YouTube allows. Other sites, and YouTube live streams, are not affected. Casting from the YouTube app to the car goes through the same path and follows the same rule.
 
 
-**"Video isn't available on this car. Audio keeps playing."** The car's CarPlay cannot show rPlayFling's picture. On iOS 27.2 and later, CarPlay allows third-party video only through the car's own video playback feature, which only newer cars have; on any other car with iOS 27.2 or later, rPlayFling plays the sound only. There is no way around this in the app. The car screen works on iOS 26.4 to 27.1 in every CarPlay car; see [Before you start](#1-before-you-start).
+**"Video isn't available on this car. Audio keeps playing."** rPlayFling was set to use only the car's own video player (the "Use car's Video Playback feature" switch), and this car does not have one. Turn that switch off: rPlayFling then draws the picture itself, which works in every CarPlay car on iOS 26.4 and later.
 
 **360p.** On the car, a video that stays at 360p for its whole length usually has no 16:9 HD version at the site, or the site held back HD for an ad slot longer than usual. On the phone page, 360p is YouTube's mobile page itself; the car gets HD regardless.
 
@@ -319,7 +318,6 @@ Open Settings from the ••• menu on the phone.
 ## 16. What rPlayFling cannot do
 
 - Play protected (DRM) video: Netflix, Disney+, Crunchyroll, Apple TV+ and the like. iOS blacks out protected video in any cast or capture. This applies to every app of this kind.
-- Show a picture on a car without CarPlay video support on iOS 27.2 and later (sound only).
 - Keep playing after you swipe rPlayFling away in the app switcher.
 - Show a video on the car while the car is moving.
 
@@ -336,7 +334,7 @@ A hidden page holds the switches that are still experiments or that most people 
 **CarPlay**
 
 - **Hide video while driving.** On by default. Off, the picture stays on the car screen while the car moves. This is your responsibility and your passengers'; the law in most places says the driver may not watch.
-- **Use car's Video Playback feature (new cars).** On, video goes through CarPlay's own video player, which only cars with that feature have (iOS 27.2 and later cars offer it); other cars then play the sound only. Off, rPlayFling draws the picture itself, which works on the cars most people have.
+- **Use car's Video Playback feature (new cars).** On, video goes through CarPlay's own video player, which only newer cars have; other cars then play the sound only. Off, rPlayFling draws the picture itself, which works on the cars most people have.
 - **YouTube app casts: TV player on the car.** On, a video cast from the YouTube app plays in YouTube's own TV player on the car screen, as on a Chromecast, in HD, with YouTube's own look. Only on cars where rPlayFling draws the picture itself. Off, the video plays through rPlayFling's own player like any cast.
 - **Chromecast receiver.** On, apps that cast to a Chromecast (YouTube, and many others) list "rPlayFling" on a Wi-Fi network that has internet access, and what they send plays on the car. On a car hotspot without internet, Cast apps do not search the network at all, so there the TV code is the way. Needs Settings, Receive casts from other apps, on.
 

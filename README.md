@@ -10,8 +10,7 @@ car while you are parked.
 
 **Which iOS for what:**
 - **iOS 18 or later:** casting to TVs (AirPlay, Chromecast, DLNA).
-- **iOS 26.4 to 27.1:** video on the car screen, in any CarPlay car or head unit.
-- **iOS 27.2 or later:** the car screen only in cars with CarPlay's own video playback feature (newer cars); sound only in the others.
+- **iOS 26.4 or later:** video on the car screen, in any CarPlay car or head unit, including iOS 27.2 and later.
 
 **[User guide](docs/user-guide.md)** · [Report a problem](https://github.com/rPlayAI/rPlayFling-public/issues) ·
 [Release notes](docs/releases.md)
@@ -42,8 +41,8 @@ the car moves (sound keeps playing).
 
 | Car | How video shows |
 |---|---|
-| CarPlay without video support (most cars), iOS 26.4 to 27.1 | rPlayFling draws on the car screen itself |
-| Cars with CarPlay video playback, iOS 27.2 and later | the car's own video player plays the file rPlayFling hands it |
+| Any CarPlay car, iOS 26.4 and later | rPlayFling draws on the car screen itself |
+| Cars with CarPlay's own video playback (newer cars) | the car's own video player plays the file rPlayFling hands it |
 
 ## Reporting a problem
 
